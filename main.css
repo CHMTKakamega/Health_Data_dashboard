@@ -1,14 +1,32 @@
-#pageHeader {
-	display: inline-flex;
+.container {
+	padding: 0;
+}
+.page-header {
+	display: flex;
+	padding-right: 15px;
+	margin: 0;
 }
 
 figure {
-	text-align: center;
+	text-align: left;
+	order: 1;
+	width: 50%
 }
+
+#graphPanel {
+	padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+}
+	
 
 h1 {
 	margin-top: 50px; 
-	float: right;
+	text-align: right;
+	order: 2;
+	width: 50%;
 }
 
 #loginCard {
